@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5rem;
+}
+.wrapper{
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     max-width: 100%;
+    margin: 4rem;
+}
+.daniel{
+    background-color:hsl(263, 55%, 52%) ;
+    color: white;
+    width: 40.5rem;
+    padding: 2.5rem 1.7rem;
+    margin-right: 1.5rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    height: fit-content;
+    background-image: url(./Images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:80% top;
+    background-origin: content-box;    
+}
+
+.daniel h3{
+    width: 30rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin-left: 15px;
+}
+.daniel p{
+    margin-left: 15px;
+}
+.img-verified{
+    display: flex;
+    padding-bottom: 1rem;
+}
+.name{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.img-verified img{
+    border-radius: 8rem;
+
+}
+.review{
+    line-height: 1.3rem;
+}
+
+.jonathan{
+    background-color:hsl(217, 19%, 35%) ;
+    width: 19rem;
+    padding: 2.5rem 2rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    height: fit-content;
+    margin-left: 0;
+}
+.jonathan h3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.Jeanette{
+    background-color: hsl(0, 0%, 81%);
+    width: 19rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 0.4rem;
+    height: fit-content;
+    padding-bottom: 2rem;
+    position: relative;
+    bottom: 18rem;
+}
+.Jeanette h3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+
+.Patrick{
+    background-color:hsl(219, 29%, 14%) ;
+    padding-left: 1.9rem;
+    padding-top: 2rem;
+    padding-right: 0.9rem;
+    padding-bottom: 1.5rem;   
+    border-radius: 0.3rem;
+    margin-bottom: 20rem;
+    height: fit-content;
+    position: relative;
+    right: 23rem;
+    margin-bottom:50rem;
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+    width: 40rem;    
+    position: relative;
+    bottom: 18.5rem;                                                                                                                                                                                                                 
+}
+.Patrick h3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.vg{
+    opacity: 50%;
+}
+
+
+.rev{
+    opacity: 70%;
+}
+
+.Kira{
+    background-color: hsl(210, 46%, 95%);
+    padding-bottom: 1.9rem;
+    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: fit-content;
+    margin-left: 2rem;
+    align-content: left;
+    position: relative;
+    right: 23rem;
+}
+.Kira h3{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color:  hsl(0, 0%, 81%);
+    line-height: 1.3rem;
+}
+@media screen and (max-width:375px){
+
+    .wrapper{
+        display: block;
+        justify-content: center;
+        gap: 1rem;
+        margin-left: 40px;
+    }
+
+    body{
+        background-color: white;
+        padding: 1px; 
+        margin: 2rem;   
+    }
+    .daniel{
+        background-color:hsl(263, 55%, 52%) ;
+        width:17rem;
+        display: block;
+        height: fit-content;
+        justify-content: center;
+        margin-right: 0px;
+        padding: 2.5rem 1.7rem;
+    }
+    .daniel h3{
+        width: 12rem;
+    }
+
+
+    .Jeanette{
+        background-color: hsl(0, 0%, 81%);
+        display: block;
+        justify-content: center;
+        border-radius: 0.4rem;
+        /* height: fit-content; */
+        width: 17rem;
+        position: relative;
+        bottom: 48rem;
+
+    }
+    .jonathan{
+        background-color:hsl(217, 19%, 35%) ;
+        display: block;
+        justify-content: center;
+        border-radius: 0.3rem;
+        height: fit-content;
+        width: 17rem;
+        
+    }
+
+    .Patrick{
+        background-color:hsl(219, 29%, 14%) ;
+        display: block; 
+        justify-content: center;
+        border-radius: 0.3rem;
+        height: fit-content;
+        line-height: 1.5rem;
+        position: relative;
+        bottom: 46rem;
+        width: 17rem;
+        margin-left: 23rem;
+        margin-right: 20rem;
+    }
+
+    .Kira{
+        background-color: hsl(210, 46%, 95%);
+        border-radius: 0.5rem;
+        height: fit-content;
+        display: block;
+        /* justify-content: center; */
+        position: relative;
+        top: 56rem;
+        margin-left: 22.9rem;
+        /* margin-right: 32rem; */
+        width: 17rem;
+
+    }
+}  
+
+
+
+
